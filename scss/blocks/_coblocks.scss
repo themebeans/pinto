@@ -1,0 +1,144 @@
+.entry-content {
+	.wp-block-coblocks-alert {
+		@include blockMobileDisplay();
+		padding-bottom: 0.8em;
+		padding-top: 0.7em;
+
+		&:not(.has-custom-size) &__title {
+			font-size: 19px;
+			margin-bottom: 0.7em;
+		}
+
+		&:not(.has-custom-size) &__text {
+			font-size: 18px;
+		}
+
+		&__text,
+		&__title {
+			margin-bottom: 0;
+			margin-top: 0;
+		}
+	}
+
+	.wp-block-coblocks-click-to-tweet {
+		border: none !important;
+		padding-left: 0 !important;
+
+		&__text {
+			color: $color__text-heading;
+			font-family: $font__heading;
+			font-size: $font__size-md;
+			font-style: italic;
+			font-weight: $font__weight-heading;
+			line-height: 1.4;
+			margin-bottom: 4px;
+		}
+
+		&__text::before {
+			height: 28px;
+			top: 8px;
+			width: 28px;
+		}
+
+		&__twitter-btn {
+			border-radius: 4px;
+			font-family: $font__heading;
+			font-size: $font__size-sm;
+			font-style: italic;
+			font-weight: $font__weight-heading;
+			height: 44px;
+			line-height: 45px;
+			margin-bottom: 7px !important;
+			margin-top: 0.8em;
+			padding: 0 1em;
+
+			@media (max-width: 700px) {
+				font-size: $font__size-sm;
+			}
+
+			&::before {
+				margin-right: 7px;
+			}
+		}
+	}
+
+	.wp-block-coblocks-author {
+		@include blockMobileDisplay();
+		background: #f6f6f4;
+		padding-left: 30px;
+		padding-right: 30px;
+
+		&__name,
+		&__heading {
+			margin-bottom: 0;
+		}
+
+		&__heading {
+			color: $gray;
+			font-family: $font__heading;
+			font-size: $font__size-xxs;
+			text-transform: uppercase;
+		}
+
+		&__biography {
+			font-size: $font__size-sm;
+			margin-bottom: 1em !important;
+		}
+
+		&__name {
+			color: $color__text-heading;
+			font-family: $font__heading;
+			font-size: $font__size-md;
+			font-style: italic;
+			font-weight: $font__weight-heading;
+			margin: 0.15em 0 0.1em;
+		}
+
+		.wp-block-button {
+			margin-top: 0.5em;
+		}
+	}
+
+	.wp-block-coblocks-dynamic-separator {
+		@include blockMobileDisplay();
+
+		@media screen and (max-width: $content__width) {
+			padding-left: 0;
+			padding-right: 0;
+			width: calc(100% - #{$content__padding * 2});
+		}
+	}
+
+	.wp-block-coblocks-pricing-table-item {
+		&__title {
+			font-size: $font__size-sm;
+			color: $color__text-heading;
+			font-family: $font__heading;
+			font-style: italic;
+			font-weight: $font__weight-heading;
+			margin-bottom: 1.3em;
+		}
+
+		&__currency {
+			font-size: $font__size-sm;
+			position: relative;
+			right: -1px;
+			top: 16px;
+		}
+
+		&__price-wrapper {
+			margin-bottom: 0.9em;
+			margin-left: -10px;
+		}
+
+		&__amount {
+			color: $color__text-heading;
+			letter-spacing: -0.05em;
+		}
+
+		&__features {
+			font-size: $font__size-sm;
+			margin-bottom: 1.7em;
+		}
+	}
+}
