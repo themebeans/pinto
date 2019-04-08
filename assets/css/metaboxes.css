@@ -1,0 +1,145 @@
+/**
+ * CMB2
+ */
+.cmb2-metabox .cmb2-metabox-description {
+	font-style: 13px;
+	color: #666;
+}
+
+#cmb2-metabox-portfolio_type .cmb-type-checkbox {
+	display: flex;
+	justify-content: space-between;
+}
+
+#cmb2-metabox-portfolio_type .cmb-type-checkbox .cmb-th {
+	align-items: flex-start;
+}
+
+#cmb2-metabox-portfolio_type .cmb-type-checkbox .cmb-td {
+	align-items: flex-end;
+}
+
+.cmb2-id--bean-portfolio-type-video .cmb-th label::before,
+.cmb2-id--bean-portfolio-type-gallery .cmb-th label::before {
+	color: #DDD;
+	content: '\f161';
+	display: inline-block;
+	font: 400 20px/1 dashicons;
+	margin-right: 7px;
+	position: relative;
+	vertical-align: middle;
+	speak: none;
+	transition: all .1s ease-in-out;
+}
+
+.cmb2-id--bean-portfolio-type-video .cmb-th label::before {
+	content: '\f126';
+}
+
+/**
+ * Gutenberg CMB2
+ */
+.gutenberg-editor-page #side-sortables .cmb2-wrap .cmb-row {
+  margin-bottom: 0.1em;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.gutenberg-editor-page #side-sortables .cmb2-wrap .cmb-th {
+  padding-bottom: 0.6em;
+}
+
+.gutenberg-editor-page #side-sortables .cmb2-wrap .cmb-th label {
+  color: #555d66;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.gutenberg-editor-page #side-sortables .cmb2-wrap .cmb-td .cmb2-metabox-description {
+  color: #555d66;
+  padding-bottom: 0;
+}
+
+.gutenberg-editor-page .cmb2-postbox h2.hndle span {
+  color: #191e23;
+  font-size: 13px;
+}
+
+.gutenberg-editor-page #link_metabox,
+.gutenberg-editor-page #video_metabox {
+	display: block !important;
+}
+
+.edit-post-meta-boxes-area .postbox>.inside, .edit-post-meta-boxes-area #poststuff .stuffbox>h3, .edit-post-meta-boxes-area #poststuff h2.hndle, .edit-post-meta-boxes-area #poststuff h3.hndle  {
+	border-bottom: none !important;
+}
+
+.edit-post-meta-boxes-area .cmb2-postbox > .inside {
+	margin-top: 0 !important;
+}
+
+
+
+
+.components-panel .edit-post-meta-boxes-area.is-side h2.hndle span {
+	color: #23282d;
+	font-size: 13px;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side .postbox {
+	box-shadow: none;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side  .postbox>.inside,
+.components-panel .edit-post-meta-boxes-area.is-side #poststuff h2.hndle,
+.components-panel .edit-post-meta-boxes-area.is-side #poststuff h3.hndle {
+	border-bottom: none !important;
+	line-height: 1.2;
+	transition: background .1s ease-in-out;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side #poststuff h2.hndle:hover {
+	background-color: #f8f9f9;
+	cursor: pointer;
+}
+
+
+
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table th,
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table td {
+	display: block;
+	width: 100%;
+	padding: 0;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table {
+	padding: 3px;
+	padding-top: 0;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table textarea {
+	margin-right: 0;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table thead,
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table tbody,
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table tr,
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table td,
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table th {
+	display: block;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side label strong {
+	font-weight: 400;
+	font-size: 13px;
+	color: #555d66;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side label span {
+	display: none;
+}

@@ -1,0 +1,272 @@
+# Copyright (C) 2019 Pinto
+# This file is distributed under the same license as the Pinto package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pinto\n"
+"Report-Msgid-Bugs-To: https://themebeans.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Rich Tabor of ThemeBeans\n"
+"Language-Team: ThemeBeans\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:17
+msgid "404 Error."
+msgstr ""
+
+#: 404.php:18
+msgid "Yikes. This page has not been found."
+msgstr ""
+
+#: 404.php:20
+msgid "Go Back"
+msgstr ""
+
+#: 404.php:20
+msgid " or "
+msgstr ""
+
+#: 404.php:20
+msgid "Go Home"
+msgstr ""
+
+#: comments.php:19
+msgid "0 Comments "
+msgstr ""
+
+#: comments.php:19
+msgid "1 Comment "
+msgstr ""
+
+#: comments.php:19
+msgid "% Comments "
+msgstr ""
+
+#: comments.php:49
+msgid "Comments are closed."
+msgstr ""
+
+#: components/page/content-page.php:35, components/post/content.php:44
+msgid "Pages:"
+msgstr ""
+
+#: components/post/post-meta.php:28
+msgid " Minute Read"
+msgstr ""
+
+#: components/post/post-meta.php:31
+msgid "&nbsp;Edit"
+msgstr ""
+
+#: functions.php:76
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:147
+msgid "Black"
+msgstr ""
+
+#: functions.php:152
+msgid "Gray"
+msgstr ""
+
+#: functions.php:157
+msgid "Light Gray"
+msgstr ""
+
+#: functions.php:162
+msgid "White"
+msgstr ""
+
+#: functions.php:167
+msgid "Titan White"
+msgstr ""
+
+#: functions.php:172
+msgid "Tropical Blue"
+msgstr ""
+
+#: functions.php:177
+msgid "Peppermint"
+msgstr ""
+
+#: functions.php:182
+msgid "Iceberg"
+msgstr ""
+
+#: functions.php:187
+msgid "Bridesmaid"
+msgstr ""
+
+#: functions.php:192
+msgid "Pipi"
+msgstr ""
+
+#: functions.php:197
+msgid "Accent"
+msgstr ""
+
+#: functions.php:212
+msgid "Small"
+msgstr ""
+
+#: functions.php:213
+msgid "S"
+msgstr ""
+
+#: functions.php:218
+msgid "Medium"
+msgstr ""
+
+#: functions.php:219
+msgid "M"
+msgstr ""
+
+#: functions.php:224
+msgid "Large"
+msgstr ""
+
+#: functions.php:225
+msgid "L"
+msgstr ""
+
+#: functions.php:230
+msgid "Huge"
+msgstr ""
+
+#: functions.php:231
+msgid "XL"
+msgstr ""
+
+#: functions.php:277
+msgid "Hidden Sidebar"
+msgstr ""
+
+#: functions.php:279
+msgid "Widget area for the hidden sidebar."
+msgstr ""
+
+#: functions.php:358
+msgctxt "Plex font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:365
+msgctxt "PT Serif font: on or off"
+msgid "on"
+msgstr ""
+
+#: header.php:35, header.php:36
+msgid "Toggle Menu"
+msgstr ""
+
+#: inc/customizer/customizer.php:35
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:56
+msgid "Max Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:82
+msgid "Mobile Max Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:107
+msgid "Header Tagline"
+msgstr ""
+
+#: inc/customizer/customizer.php:121
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/customizer/customizer.php:135
+msgid "Footer Tagline"
+msgstr ""
+
+#: inc/customizer/customizer.php:149
+msgid "Display Post Meta"
+msgstr ""
+
+#: inc/customizer/customizer.php:167
+msgid "Accent Color"
+msgstr ""
+
+#: inc/customizer/defaults.php:30
+msgid "Welcome to Pinto, a nice new WordPress Theme by the ThemeBeans Crew, a developer team with a keen eye for exciting & unparalleled themes. Customize this tagline in the Theme Customizer, from your WordPress Dashboard."
+msgstr ""
+
+#: inc/customizer/defaults.php:31
+msgid "You can find Rich on Twitter, Facebook & even on Dribbble. This is a footer tagline input added in via the Theme Customizer in Pinto."
+msgstr ""
+
+#: inc/metaboxes.php:26
+msgid "Video Post Format"
+msgstr ""
+
+#: inc/metaboxes.php:35
+msgid "Embed"
+msgstr ""
+
+#: inc/metaboxes.php:36
+msgid "Enter a Youtube or Vimeo URL. Supports services listed <a target=\"_blank\" href=\"http://codex.wordpress.org/Embeds\">here</a>."
+msgstr ""
+
+#: inc/template-tags.php:142
+msgid " Words"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:19
+msgid "Flickr Photos"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:20
+msgid "Add a Flickr feed widget."
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:102, inc/widgets/widget-newsletter.php:91
+msgid "Title / Intro:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:107
+msgid "Flickr ID:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:112
+msgid "Type:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:130
+msgid "Display:"
+msgstr ""
+
+#: inc/widgets/widget-newsletter.php:19
+msgid "Newsletter"
+msgstr ""
+
+#: inc/widgets/widget-newsletter.php:20
+msgid "Add a newsletter field."
+msgstr ""
+
+#: inc/widgets/widget-newsletter.php:55
+msgid "Subscribe"
+msgstr ""
+
+#: inc/widgets/widget-newsletter.php:100
+msgid "Placeholder Text:"
+msgstr ""
+
+#: inc/widgets/widget-newsletter.php:105
+msgid "Subscribe Code:"
+msgstr ""
+
+#: searchform.php:11, searchform.php:11, searchform.php:11
+msgid "To search type & hit enter"
+msgstr ""

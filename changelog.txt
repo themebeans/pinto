@@ -1,0 +1,195 @@
+** Pinto Changelog **
+
+05 April 2019, Version 3.0.8
+	* New: Add support for the new `wp_body_open` hook in WordPress 5.2+
+	* Fix: Adjust Alert block typography control functionality
+	* Tweak: Add proper styling for the new <code> format within the block editor
+	* Tweak: Admin 1.6.1
+
+26 February 2019, Version 3.0.7
+	* New: Add support for the upcoming CoBlocks rounded and 3D button styles
+	* Fix: Multiple paragraphs within a Quote block are now properly spaced
+	* Fix: Adjust Alert block typography control functionality
+	* Tweak: Adjust core Button block styling
+
+30 January 2019, Version 3.0.6
+	* Fix: <strong> tags now render properly on the frontend
+
+28 January 2019, Version 3.0.5
+	* Tweak: Custom fonts applied with CoBlocks now render properly on blockquotes
+	* Fix: Mobile menu toggle now behaves appropriately on mobile
+	* Fix: Improve how the video post format metabox renders previews
+	* Fix: Adjust video post format iFrame
+
+27 January 2019, Version 3.0.4
+	* Fix: Resolve Webkit button appearance issue
+
+26 January 2019, Version 3.0.3
+	* Fix: Resolve issue where comments did not always appear on new posts
+
+06 January 2019, Version 3.0.2
+	* Tweak: Improve caption link style
+	* Tweak: Add appropriate blockquote fallback
+	* Tweak: Improve metabox styling within Gutenberg
+
+06 December 2018, Version 3.0.1
+	* Tweak: Hidden sidebar/mobile menu animation speed
+	* Tweak: Adjust pullquote styling
+
+05 December 2018, Version 3.0.0
+	* New: Full support for Gutenberg and WordPress 5.0
+	* New: Apply massive framework improvment, which is now based on Underscores
+	* New: Add support for CoBlocks, Gutenberg Blocks for Content Marketers - https://coblocks.com
+	* New: Add support for Block Gallery, gallery Gutenberg Blocks - https://wpblockgallery.com
+	* New: Add support for the Merlin WP theme setup wizard 🧙‍♂️
+	* New: Add custom Gutenberg editor color palette
+	* New: Add selected Customizer accent color to the Gutenberg editor color palette
+	* New: Add custom editor font sizes
+	* New: Add support for PHP 7.2
+	* New: Add TGM Plugin Activation support
+	* New: Add concated styles and scripts for faster performance 🚀
+	* New: Add support for core custom logo functionality and auto-migration
+	* New: Add SCSS support with auto browser auto-prefixing
+	* New: Add minified Customizer JS and editor stylesheet assets with auto-prefixing
+	* New: Add new custom logo width options for desktop and mobile viewports
+	* New: Add new Underscore JS Customizer controls for improved Customizer speed
+	* New: Add better customizer defaults for improved onboarding
+	* New: Add new Customizer based theme license activator
+	* New: Add new debug mode that works with minified asset delivery throughout the entire theme
+	* Tweak: Improve Customizer sanitization functions
+	* Tweak: Conducted a security audit and added recommended optimizations
+	* Tweak: Remove single post thumbnails
+	* Tweak: Update comments
+	* Tweak: Apply modern styling
+	* Tweak: Update child theme
+	* Remove: Legacy framework code
+	* Remove: Archive and Site Map templates, as they are now provided by Gutenberg
+	* Remove: Gallery post format, as it is now provided by Gutenberg & Block Gallery
+
+8 December 2016 - Version 2.9.1
+    Fixes & Updates:
+        * WordPress 4.7 touchups
+        * Custom CSS -> WP Core CSS migration
+        * Updated pingback header
+        * Updated languages
+
+29 February 2016 - Version 2.9.0
+    * Admin favicon fix
+    * EDD_Theme_Updater Update
+        - You will need to re-activate your theme license.
+    * Updated languages
+
+04 January 2016 - Version 2.8.1
+	* Added Grunt task runner
+	* Dynamic Sidebar WP 4.4 fix
+		- content-hidden-sidebar.php
+	* Updated languages
+
+2 September 2015 - Version 2.8.0
+	* 100% GPL license
+		- style.css (top comments)
+		- Read more: http://themebeans.com/news/all-themes-now-100-gpl/
+	* Theme Customizer update
+		- Moved Branding section to WP default Site Identity section
+		- Removed favicon & apple touch uploader (WP 4.3 is default)
+		- inc/customizer folder
+	* 4.3 widget __construct update
+		- inc/widgets folder
+	* Framework updated to v2.6.2.1
+		- WP 4.3 Theme Customizer update
+		- Custom CSS Editor UI/X update
+		- framework folder
+	* Updated languages
+
+30 April 2015 - Version 2.7.0
+	* XSS fix
+	* Visual post editor touch ups
+	* Theme Customizer UI improvements
+	* bean_custom_form_filters comments 4.2+ fix
+	* Table of Contents for primary stylesheet
+	* Framework updated to v2.2.5
+		- Updated Theme Customizer UI
+		- Updated Custom CSS Editor
+	* Updated languages
+
+15 January 2015 - Version 2.6.2
+	* Contact form updated
+		- Anti-spam $headers fix
+	* Framework updated to v2.2.3.1
+		- Customizer image upload update
+	* Updated languages
+
+22 December 2014 - Version 2.6.1
+	* Framework updated to v2.2.1
+	* Updated languages
+
+9 December 2014 - Version 2.6
+	* Framework updated to v2.2
+		- Updated Custom CSS Editor
+		- Notifications for theme updates
+		- Dashboard updating enabled
+		- Theme license admin page (NEW)
+		- Moved customizer functions to /framework
+	* Updated languages
+
+1 October 2014 - Version 2.5.0
+	* Animation engine update
+	* Framework updated to v2.1.1
+		- Customizer major update
+	* Updated languages
+
+5 September 2014 - Version 2.4.0
+	* WP 4.0 compatibility update
+	* Added site map template (NEW)
+	* Framework updated to v2.0.9.1
+	* Modded 'page' filenames to 'template'
+	* Updated styles for templates' mod
+	* Moved framework.css into style.css - performance improvement
+	* Removed framework.css
+	* Updated languages
+
+30 June 2014 - Version 2.3.0
+	* WP 3.9+ UI touch ups
+	* Added video embed widget (NEW)
+	* Added fallback/function for more tag
+	* Support for Bean 500px plugin
+	* Framework updated to v2.0.9
+	* Updated languages
+
+16 Mar 2014 - Version 2.2.0
+	* New theme version notifications/update system
+	* New Custom CSS Editor
+	* Theme customizer UI update
+	* Framework updated to v2.0.5
+	* Updated languages
+
+12 Feb 2014 - Version 2.1.0
+	* Support for Bean Shortcodes 2.0+
+
+22 Jan 2014 - Version 2.0.2
+	* Retina.js updated to v1.1.0
+
+6 Jan 2014 - Version 2.0.1
+	* Contact textarea fix
+
+30 Dec 2013 - Version 2.0.0
+	* Major theme/framework release - backup & update with caution.
+	* Added Fitvids responsive video support
+	* Updated documentation
+
+12 Dec 2013 - Version 1.3.0
+	* WP 3.8 patches
+	* Support for Bean Tweets 2.0 Plugin
+
+14 Nov 2013 - Version 1.2.0
+	* Support for Bean Pricing Tables Plugin
+	* Support for posts without featured images
+
+13 Oct 2013 - Version 1.1.1
+	* Gallery false output fix
+
+7 Oct 2013 - Version 1.1.0
+	* Support for Bean Social Plugin
+
+10 Sept 2013 - Version 1.0.0
+	* Initial release
