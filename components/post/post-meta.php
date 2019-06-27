@@ -21,7 +21,7 @@ if ( 0 === $reading_time ) {
 <div class="entry-meta">
 	<ul>
 		<li class="mobile-hide"><a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>"><?php the_author_meta( 'display_name' ); ?></a></li>
-		<li><div class="nav-sep mobile-hide">&middot;</div><?php echo the_time( 'M j Y' ); ?></li>
+		<li><div class="nav-sep mobile-hide">&middot;</div><time class="dt-published" datetime="<?php echo esc_attr( the_date( 'Y-m-d H:i:s' ) ); ?>"><?php echo the_time( 'M j Y' ); ?></span></li>
 		<li class="mobile-hide"><div class="nav-sep">&middot;</div>
 		<?php
 			echo esc_html( $reading_time );

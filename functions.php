@@ -455,6 +455,11 @@ require get_theme_file_path( '/inc/customizer/sanitization.php' );
 require get_parent_theme_file_path( '/inc/admin/init.php' );
 
 /**
+ * Add Microformats support.
+ */
+require get_theme_file_path( '/inc/microformats.php' );
+
+/**
  * Disable Dashboard Doc.
  */
 function themebeans_guide() {}
