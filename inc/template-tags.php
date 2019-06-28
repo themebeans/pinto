@@ -97,14 +97,15 @@ if ( ! function_exists( 'pinto_site_logo' ) ) :
 	function pinto_site_logo() {
 
 		$visibility = ( has_custom_logo() ) ? ' hidden' : null;
+		$show_title = get_theme_mod( 'custom_logo_show_title', false );
+		$visibility = $show_title ? true : $visibility;
 
 		do_action( 'pinto_before_site_logo' );
 
 		the_custom_logo();
 
-		if ( ! has_custom_logo() || is_customize_preview() ) {
+		if ( $show_title || ! has_custom_logo() || is_customize_preview() ) {
 			printf( '<h1 class="site-title site-logo p-name %1$s" itemscope itemtype="http://schema.org/Organization"><a class="u-url" href="%2$s" rel="home" itemprop="url">%3$s</a></h1>', esc_attr( $visibility ), esc_url( home_url( '/' ) ), esc_html( get_bloginfo( 'name' ) ) );
-
 		}
 
 		do_action( 'pinto_after_site_logo' );

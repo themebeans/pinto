@@ -92,6 +92,38 @@ function pinto_customize_register( $wp_customize ) {
 		)
 	);
 
+	$wp_customize->add_setting(
+		'custom_logo_show_title', array(
+			'default' => pinto_defaults( 'custom_logo_show_title' ),
+		)
+	);
+
+	$wp_customize->add_control(
+		'custom_logo_show_title', array(
+			'label'   => esc_html__( 'Show title and logo together?', 'pinto' ),
+			'section' => 'title_tagline',
+			'type'    => 'checkbox',
+		)
+	);
+
+	$wp_customize->add_control(
+		new ThemeBeans_Range_Control(
+			$wp_customize, 'custom_logo_mobile_max_width', array(
+				'default'     => pinto_defaults( 'custom_logo_mobile_max_width' ),
+				'type'        => 'themebeans-range',
+				'label'       => esc_html__( 'Mobile Max Width', 'pinto' ),
+				'description' => 'px',
+				'section'     => 'title_tagline',
+				'priority'    => 9,
+				'input_attrs' => array(
+					'min'  => 40,
+					'max'  => 200,
+					'step' => 2,
+				),
+			)
+		)
+	);
+
 	/**
 	 * Theme Customizer options.
 	 */

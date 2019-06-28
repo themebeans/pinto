@@ -22,6 +22,7 @@ function pinto_defaults( $name ) {
 				// Identity.
 				'custom_logo_max_width'        => 50,
 				'custom_logo_mobile_max_width' => 50,
+				'custom_logo_show_title'       => false,
 
 				// Colors.
 				'theme_accent_color'           => '#007c89',
