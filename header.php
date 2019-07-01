@@ -28,7 +28,7 @@
 
 		<div class="row">
 
-			<div id="header-container">
+			<div id="header-container" class="h-card">
 
 				<?php pinto_site_logo(); ?>
 
@@ -60,7 +60,7 @@
 
 						<div class="six columns centered">
 							<div class="theme-tagline">
-								<p><?php echo get_theme_mod( 'header_tagline', pinto_defaults( 'header_tagline' ) ); ?></p>
+								<p class="p-note"><?php echo get_theme_mod( 'header_tagline', pinto_defaults( 'header_tagline' ) ); ?></p>
 							</div>
 						</div>
 

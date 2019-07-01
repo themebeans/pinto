@@ -103,7 +103,7 @@ if ( ! function_exists( 'pinto_site_logo' ) ) :
 		the_custom_logo();
 
 		if ( ! has_custom_logo() || is_customize_preview() ) {
-			printf( '<h1 class="site-title site-logo %1$s" itemscope itemtype="http://schema.org/Organization"><a href="%2$s" rel="home" itemprop="url">%3$s</a></h1>', esc_attr( $visibility ), esc_url( home_url( '/' ) ), esc_html( get_bloginfo( 'name' ) ) );
+			printf( '<h1 class="site-title site-logo p-name %1$s" itemscope itemtype="http://schema.org/Organization"><a class="u-url" href="%2$s" rel="home" itemprop="url">%3$s</a></h1>', esc_attr( $visibility ), esc_url( home_url( '/' ) ), esc_html( get_bloginfo( 'name' ) ) );
 
 		}
 
@@ -127,7 +127,7 @@ if ( ! function_exists( 'pinto_get_word_count' ) ) {
 if ( ! function_exists( 'pinto_after_post_meta' ) ) {
 
 	function pinto_after_post_meta() {
-	?>
+		?>
 
 		<div class="entry-meta-after">
 			<ul>
