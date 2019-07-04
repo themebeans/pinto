@@ -105,7 +105,7 @@ if ( ! function_exists( 'pinto_site_logo' ) ) :
 		the_custom_logo();
 
 		if ( $show_title || ! has_custom_logo() || is_customize_preview() ) {
-			printf( '<h1 class="site-title site-logo p-name %1$s" itemscope itemtype="http://schema.org/Organization"><a class="u-url" href="%2$s" rel="home" itemprop="url">%3$s</a></h1>', esc_attr( $visibility ), esc_url( home_url( '/' ) ), esc_html( get_bloginfo( 'name' ) ) );
+			printf( '<h1 class="site-title site-logo %1$s" itemscope itemtype="http://schema.org/Organization"><a class="u-url p-name" href="%2$s" rel="home" itemprop="url">%3$s</a></h1>', esc_attr( $visibility ), esc_url( home_url( '/' ) ), esc_html( get_bloginfo( 'name' ) ) );
 		}
 
 		do_action( 'pinto_after_site_logo' );
