@@ -21,16 +21,16 @@ if ( ( function_exists( 'has_post_thumbnail' ) ) && ( ! has_post_thumbnail() ) )
 	<header class="entry-header container">
 		<?php
 		if ( is_singular() ) {
-			the_title( '<h1 class="entry-title h1">', '</h1>' );
+			the_title( '<h1 class="entry-title h1 p-name">', '</h1>' );
 		} else {
-			the_title( '<h2 class="entry-title h1"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+			the_title( '<h2 class="entry-title h1 p-name"><a class="u-url" href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		}
 		?>
 	</header>
 
 	<?php get_template_part( 'components/post/post-meta' ); ?>
 
-	<div class="entry-content">
+	<div class="<?php echo esc_attr( pinto_content_class() ); ?>">
 
 		<?php
 		if ( is_singular() ) {
