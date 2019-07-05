@@ -92,6 +92,20 @@ function pinto_customize_register( $wp_customize ) {
 		)
 	);
 
+	$wp_customize->add_setting(
+		'custom_logo_show_title', array(
+			'default' => pinto_defaults( 'custom_logo_show_title' ),
+		)
+	);
+
+	$wp_customize->add_control(
+		'custom_logo_show_title', array(
+			'label'   => esc_html__( 'Display Site Title and Logo', 'pinto' ),
+			'section' => 'title_tagline',
+			'type'    => 'checkbox',
+		)
+	);
+
 	/**
 	 * Theme Customizer options.
 	 */
