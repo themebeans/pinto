@@ -100,7 +100,7 @@ function pinto_customize_register( $wp_customize ) {
 
 	$wp_customize->add_control(
 		'custom_logo_show_title', array(
-			'label'   => esc_html__( 'Show title and logo together?', 'pinto' ),
+			'label'   => esc_html__( 'Display Site Title and Logo', 'pinto' ),
 			'section' => 'title_tagline',
 			'type'    => 'checkbox',
 		)
